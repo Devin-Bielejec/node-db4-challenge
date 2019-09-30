@@ -28,6 +28,7 @@ The requirements for the system, as stated by the client are:
 
 Recipes
 -id
+-name
 
 Steps
 -Recipe_id
