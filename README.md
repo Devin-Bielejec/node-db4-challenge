@@ -23,8 +23,17 @@ The requirements for the system, as stated by the client are:
 
 ### Migrations and Seeds
 
-- Write a migration file that creates all tables necessary to model this data
+[X] Write a migration file that creates all tables necessary to model this data
 - Write seed files to populate the tables with test data. **Hint**: Keep your recipes *very* simple or this step could become extremely time consuming.
+
+Recipes
+-id
+-name
+
+Steps
+-Recipe_id
+-Ingredient
+-Quanitity (float)
 
 ### Data Access
 
@@ -35,6 +44,9 @@ In addition to the `migrations` and `seeding` scripts, write a data access file 
 - `getInstructions(recipe_id)`: should return a list of step by step instructions for preparing a recipe
 
 Organize and name your files anyway you see fit.
+
+
+
 
 ## Stretch Problem
 
